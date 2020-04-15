@@ -1,3 +1,5 @@
 npm install create-react-app
 create-react-app <nome_do_projeto>
 npm start
+npm install // installs all dependencies
+npm update // updates all dependencies
