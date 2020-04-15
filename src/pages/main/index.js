@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
+import { Link } from 'react-router-dom';
 
 import './styles.css'
 
@@ -49,7 +50,7 @@ state = {
             <strong>{product.title}</strong>
             <p>{product.description}</p>
 
-            <a href=''>Access</a>
+            <Link to={`/products/${product._id}`}>Access</Link>
           </article>
         ))}
         <div className='actions'>
