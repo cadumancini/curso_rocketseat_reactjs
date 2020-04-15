@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render( // vai usar essa função apenas uma vez
+ReactDOM.render( // will use this function only once
   <React.StrictMode>
     <App />
   </React.StrictMode>,
